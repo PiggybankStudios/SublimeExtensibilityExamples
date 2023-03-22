@@ -1,0 +1,14 @@
+{
+	//Choose this as your current build tool for the project from the "Tools" -> "Build System" menu
+	
+	"cmd": "C:\\path_to\\custom_builder_script.bat \"$file\"",
+	"shell": true,
+	
+	// This is the regular expression used to match errors in the output of the compilation process
+	// Double click them in the output window or hit F4 after compiling to step through each error
+	// Captured groups in the regex act as the 1. path 2. line number 3. column number 4. message
+	"file_regex": "^(\\w\\:[^\\:\\n]+\\.[A-Za-z]+)\\((\\d+)\\)\\ ?: (?:fatal )?(?:error|warning) \\w\\d+: ()([^\\n]+)$",
+	
+	// Feel free to choose a specific custom syntax as well, to color your build output nicely (like turning errors red)
+	// "syntax": "MSVC Build.sublime-syntax",
+}

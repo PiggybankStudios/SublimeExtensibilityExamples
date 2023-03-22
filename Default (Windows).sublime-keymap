@@ -1,0 +1,3 @@
+[
+	{ "keys": ["ctrl+m"], "command": "my_demonstration" },
+]

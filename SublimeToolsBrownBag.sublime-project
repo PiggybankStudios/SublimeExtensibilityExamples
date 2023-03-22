@@ -1,0 +1,22 @@
+{
+	//Comments are acceptable in all sublime JSON style files
+	"folders":
+	[
+		{
+			"path": ".", //relative path is relative to where this sublime-project file resides
+			"folder_exclude_patterns": [
+				"folder_that_we_dont_want",
+				"*_suffix_matched",
+			],
+			"file_exclude_patterns": [
+				"ignored_file.txt",
+				"*.gif",
+			],
+		},
+		{
+			"path": "D:/bungie/v800_worlds/tiger/config", //absolute path
+			"file_include_patterns": [ "debug_keys.csv" ],
+			"folder_include_patterns": [ "dont_show_any_child_folders" ],
+		}
+	]
+}
